@@ -155,7 +155,7 @@
             h5 Figura 1. 
             span Decisiones básicas para atender el mercado  
           figure
-            img(src='@/assets/curso/temas/t1/8.svg', alt='')
+            img(src='@/assets/curso/temas/t1/8.svg', alt='Presenta las decisiones fundamentales para atender el mercado: segmentación de clientes, propuesta de valor y mezcla de mercadeo.')
       
       Separador
       #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
