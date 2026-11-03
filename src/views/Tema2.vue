@@ -94,19 +94,19 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Intermediario ")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Persona o empresa que participa en el proceso de distribución y facilita que un producto llegue desde el productor hasta el cliente. Puede intervenir en actividades comerciales, logísticas o de apoyo.
+              p.mb-0 Persona o empresa que participa en el proceso de distribución y facilita que un producto llegue desde el productor hasta el cliente. Puede intervenir en actividades comerciales, logísticas o de apoyo.
           .row(numero="2" titulo="Agente comercial")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Representa a una empresa o productor en determinadas actividades comerciales, como la promoción, negociación o venta de productos o servicios. Su función principal es facilitar las operaciones entre las partes.
+              p.mb-0 Representa a una empresa o productor en determinadas actividades comerciales, como la promoción, negociación o venta de productos o servicios. Su función principal es facilitar las operaciones entre las partes.
           .row(numero="3" titulo="Mayorista")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Adquiere productos en grandes cantidades para venderlos principalmente a minoristas, distribuidores u otras organizaciones. Contribuye al almacenamiento, fraccionamiento de grandes volúmenes y abastecimiento del mercado.
+              p.mb-0 Adquiere productos en grandes cantidades para venderlos principalmente a minoristas, distribuidores u otras organizaciones. Contribuye al almacenamiento, fraccionamiento de grandes volúmenes y abastecimiento del mercado.
           .row(numero="4" titulo="Minorista")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Comercializa productos directamente con el consumidor final, generalmente en cantidades menores y mediante establecimientos físicos o canales digitales.
+              p.mb-0 Comercializa productos directamente con el consumidor final, generalmente en cantidades menores y mediante establecimientos físicos o canales digitales.
           .row(numero="5" titulo="Distribuidor ")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Comercializa productos de una o varias empresas y puede asumir funciones relacionadas con almacenamiento, transporte, gestión de inventarios, venta y entrega en una zona o mercado determinado.
+              p.mb-0 Comercializa productos de una o varias empresas y puede asumir funciones relacionadas con almacenamiento, transporte, gestión de inventarios, venta y entrega en una zona o mercado determinado.
     
     .subt.mb-4(data-aos='fade-right')
       img(src='@/assets/curso/temas/t1/20.svg', alt='')
@@ -402,12 +402,12 @@
           .col-lg-2
             img(src='@/assets/curso/temas/t2/13.svg', alt='')
           .col-lg-10
-            ul.lista-ul
+            ul.lista-ul--color.color-secundario.fa-lista
               li 
-                i.lista-ul__vineta
+                i.fas.fa-user
                 | #[b Primero:] definir su longitud, es decir, cuántos niveles de intermediación tendrá.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-user
                 | #[b Segundo:] establecer su intensidad, determinando cuántos intermediarios o puntos de venta participarán. 
         p Estas decisiones permiten configurar una distribución coherente con las características del producto, el mercado objetivo y los objetivos comerciales de la organización.
 

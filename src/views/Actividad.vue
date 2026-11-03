@@ -4,9 +4,9 @@
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
       // Para cuestionario usar: <ActividadController :cuestionario="cuestionario"/>
       // Para parrafo usar: <ActividadController :parrafo="parrafo"/>
-      #Actividad                
+      #Actividad
       <ActividadController :cuestionario="cuestionario"/>
-  
+
   </template>
 
 <script>
@@ -19,10 +19,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Desafío de identificación y análisis de nichos de mercado',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b>Objetivo:</b> evaluar los conocimientos sobre el reconocimiento de nichos de mercado y las estrategias de segmentación comercial.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO',
@@ -30,405 +30,627 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué caracteriza principalmente a un nicho de mercado?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
+              texto: 'Está conformado por todos los consumidores.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Seleccionar y editar capas que identifican márgenes, pistas y componentes.',
+              texto: 'Agrupa consumidores con necesidades específicas.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Ajustar automáticamente las pistas de cada componente.',
+              texto: 'Se limita a empresas de gran tamaño.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Modificar el tamaño de los componentes.',
+              texto: 'Se define únicamente por el precio.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto:
-            'Lo sentimos, su respuesta no es la correcta. <em>Board</em> del <em>software</em> EAGLE.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen1.png',
+            '¿Cuál es el propósito de identificar un nicho de mercado?',
+          imagen: '@/assets/actividad/imagen2.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Layer</em>',
-              esCorrecta: false,
+              texto: 'Reconocer oportunidades para atender necesidades específicas.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: '<em>Auto</em>',
+              texto: 'Incrementar los costos de comercialización.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Text</em>',
-              esCorrecta: true,
+              texto: 'Eliminar la investigación de mercados.',
+              esCorrecta: false,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Vender el mismo producto a todos los consumidores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
-          imagen: '@/assets/actividad/imagen1.png',
+          texto:
+            '¿Qué información permite conocer mejor las preferencias de los consumidores?',
+          imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Para borrar conexiones.',
+              texto: 'Los registros de producción.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto:
-                'Para cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
+              texto: 'Los estados financieros.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Para agregar nuevas capas.',
-              esCorrecta: false,
+              texto: 'Los datos obtenidos mediante investigación de mercado.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Para resaltar conexiones de pines.',
-              esCorrecta: true,
+              texto: 'Los inventarios de maquinaria.',
+              esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 4,
           texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+            '¿Cuál es un ejemplo de segmentación geográfica?',
+          imagen: '@/assets/actividad/imagen4.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Clasificar clientes por edad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Agrupar consumidores por estilo de vida.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Clasificar compradores por frecuencia de compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Agrupar consumidores según ciudad o región.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 5,
+          texto:
+            '¿Cuál es un ejemplo de segmentación demográfica?',
+          imagen: '@/assets/actividad/imagen5.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Clasificar consumidores según edad e ingresos.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Agrupar clientes según beneficios buscados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Clasificar compradores según frecuencia de compra.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Agrupar clientes según estilo de vida.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 6,
+          texto:
+            '¿Qué variable corresponde a la segmentación psicográfica?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ubicación geográfica.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Edad del consumidor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Estilo de vida.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Frecuencia de compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 7,
+          texto:
+            '¿Qué variable corresponde a la segmentación conductual?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Región de residencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Frecuencia de compra.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Nivel de ingresos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Tamaño de la población.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 8,
+          texto:
+            '¿Qué permite determinar el análisis de las necesidades del cliente?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El número de trabajadores de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Los costos administrativos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'La capacidad instalada de producción.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Las características que debe tener la oferta.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 9,
+          texto:
+            '¿Qué característica indica que un segmento puede ser atendido por la empresa?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Accesibilidad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'b',
+              texto: 'Antigüedad.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Homogeneidad empresarial.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Capacidad productiva.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 10,
+          texto:
+            '¿Cuál es una fuente directa para obtener información de los consumidores?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'El balance general.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'La encuesta.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'El registro contable.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'La factura de compra.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 11,
+          texto:
+            '¿Qué debe hacerse con la información obtenida en una investigación de mercado?',
           imagen: '@/assets/actividad/imagen1.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: '<em>Text</em>',
+              texto: 'Eliminarla después de recolectarla.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: '<em>Layer</em>',
+              texto: 'Utilizarla únicamente para publicidad.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: '<em>Board</em>',
+              texto: 'Organizarla y analizarla para apoyar decisiones.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: '<em>Route</em>',
+              texto: 'Compartirla exclusivamente con proveedores.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto:
-                'Enrutar manualmente las pistas que no se ajustaron automáticamente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Resaltar las conexiones de los pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'Crear una nueva capa en el diseño.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto:
-                'Cambiar de ventana entre <em>Schematic</em> y <em>Board</em>.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 6,
-          texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Borrar componentes.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Ajustar automáticamente las pistas en cada componente.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Crear nuevas conexiones de pines.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Seleccionar y editar capas.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 7,
-          texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Colocar los componentes en un solo bloque.',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Agrupar los componentes en bloques funcionales.',
-              esCorrecta: true,
-            },
-            {
-              id: 'c',
-              texto: 'Alinear todos los terminales a la derecha.',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'Colocar los terminales lo más alejados posible.',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 8,
-          texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
-          imagen: '@/assets/actividad/imagen2.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'bNames',
-              esCorrecta: false,
-            },
-            {
-              id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
-            },
-            {
-              id: 'd',
-              texto: 'bValues',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 9,
-          texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 10,
-          texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
-          imagen: '@/assets/actividad/imagen3.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué permite identificar el análisis de la competencia?',
+          imagen: '@/assets/actividad/imagen2.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Únicamente los costos internos.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'El número de empleados necesarios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Solo los precios de la empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Ofertas existentes y oportunidades de diferenciación.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 13,
+          texto:
+            '¿Qué es el mercado objetivo?',
           imagen: '@/assets/actividad/imagen3.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'El grupo de consumidores al que se dirige la oferta.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'El conjunto de competidores de una empresa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'El total de proveedores disponibles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'El área donde se almacenan los productos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
-        },
-        {
-          id: 13,
-          texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
-          barajarRespuestas: true,
-          opciones: [
-            {
-              id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
-            },
-            {
-              id: 'b',
-              texto: 'Falso',
-              esCorrecta: false,
-            },
-          ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué estrategia utiliza una empresa cuando adapta su oferta a varios segmentos?',
           imagen: '@/assets/actividad/imagen4.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Mercadeo concentrado.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Mercadeo diferenciado.',
               esCorrecta: true,
             },
+            {
+              id: 'c',
+              texto: 'Mercadeo interno.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Mercadeo indiferenciado.',
+              esCorrecta: false,
+            },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
-          imagen: '@/assets/actividad/imagen4.png',
+            '¿Qué acción ayuda a determinar si existe una oportunidad de mercado?',
+          imagen: '@/assets/actividad/imagen5.png',
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Incrementar la producción sin analizar la demanda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Reducir automáticamente los precios.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Analizar necesidades insatisfechas de los consumidores.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar productos de la competencia.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 16,
+          texto:
+            '¿Qué información resulta relevante para elaborar el perfil de un cliente?',
+          imagen: '@/assets/actividad/imagen6.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Solo el nombre del consumidor.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Únicamente el producto adquirido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Exclusivamente su ubicación.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Características, necesidades y comportamiento de compra.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 17,
+          texto:
+            '¿Cuál es una ventaja de segmentar adecuadamente el mercado?',
+          imagen: '@/assets/actividad/imagen7.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Permite orientar las estrategias hacia grupos específicos.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Garantiza la eliminación de competidores.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Evita realizar investigaciones de mercado.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Permite utilizar una única oferta para todos.',
               esCorrecta: false,
             },
           ],
-          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
-          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué permite una base de datos de clientes actualizada?',
+          imagen: '@/assets/actividad/imagen8.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Eliminar la necesidad de segmentar.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Organizar y consultar información relevante de los clientes.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Garantizar automáticamente nuevas ventas.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Sustituir las estrategias comerciales.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué decisión puede tomar una empresa después de identificar las preferencias de un segmento?',
+          imagen: '@/assets/actividad/imagen9.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Mantener siempre la misma oferta.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Suspender la investigación de mercados.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Adaptar su propuesta a las necesidades identificadas.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Eliminar sus canales de distribución.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué acción evidencia el uso de información de mercado en la toma de decisiones?',
+          imagen: '@/assets/actividad/imagen10.png',
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Incrementar precios sin analizar al cliente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Producir sin considerar la demanda.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Copiar todas las acciones de la competencia.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Diseñar estrategias a partir de necesidades identificadas.',
+              esCorrecta: true,
+            },
+          ],
+          mensaje_correcto: 'Se evidencia un adecuado dominio de los fundamentos de la Identificación de nichos de mercado.',
+          mensaje_incorrecto: 'Se recomienda revisar nuevamente los contenidos del componente formativo.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado: 'Ha superado la actividad y demuestra sólidos conocimientos sobre Identificación de nichos de mercado.',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
     parrafo: {
       tema: 'Comprendiendo el diseño de presupuestos y estrategias de ahorro',

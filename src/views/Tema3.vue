@@ -135,19 +135,19 @@
          LineaTiempoD.color-primario
           .row(numero="1" titulo="Medibles")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Debe ser posible obtener información sobre su tamaño, características, comportamiento o capacidad de compra.
+              p.mb-0 Debe ser posible obtener información sobre su tamaño, características, comportamiento o capacidad de compra.
           .row(numero="2" titulo="Accesibles")
             .col-md-12.mb-4.mb-md-0
-              p.text-small La empresa debe tener posibilidades de llegar a sus integrantes mediante canales de comunicación, distribución y comercialización.
+              p.mb-0 La empresa debe tener posibilidades de llegar a sus integrantes mediante canales de comunicación, distribución y comercialización.
           .row(numero="3" titulo="Sustanciales")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Deben tener un tamaño o potencial suficiente para justificar los recursos destinados a atenderlos.
+              p.mb-0 Deben tener un tamaño o potencial suficiente para justificar los recursos destinados a atenderlos.
           .row(numero="4" titulo="Diferenciables")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Deben presentar características o comportamientos que permitan distinguirlos de otros segmentos.
+              p.mb-0 Deben presentar características o comportamientos que permitan distinguirlos de otros segmentos.
           .row(numero="5" titulo="Accionables")
             .col-md-12.mb-4.mb-md-0
-              p.text-small La empresa debe contar con las capacidades y recursos necesarios para desarrollar acciones dirigidas a ellos.
+              p.mb-0 La empresa debe contar con las capacidades y recursos necesarios para desarrollar acciones dirigidas a ellos.
     p El cumplimiento de estos requisitos permite determinar si los segmentos identificados pueden ser atendidos de manera efectiva y si proporcionan información suficiente para orientar las decisiones de #[em marketing.]
 
     .subt.mb-4(data-aos='fade-right')
@@ -284,28 +284,28 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Emisor")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Persona, empresa u organización que origina la comunicación.
+              p.mb-0 Persona, empresa u organización que origina la comunicación.
           .row(numero="2" titulo="Codificación:")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Proceso mediante el cual las ideas se transforman en palabras, símbolos, sonidos u otros recursos que permiten construir el mensaje.
+              p.mb-0 Proceso mediante el cual las ideas se transforman en palabras, símbolos, sonidos u otros recursos que permiten construir el mensaje.
           .row(numero="3" titulo="Mensaje")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Información que se desea transmitir al público objetivo.
+              p.mb-0 Información que se desea transmitir al público objetivo.
           .row(numero="4" titulo="Canal o medio")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Recurso utilizado para hacer llegar el mensaje, como medios digitales, correo electrónico, redes sociales, publicidad, teléfono o comunicación presencial.
+              p.mb-0 Recurso utilizado para hacer llegar el mensaje, como medios digitales, correo electrónico, redes sociales, publicidad, teléfono o comunicación presencial.
           .row(numero="5" titulo="Receptor")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Persona o grupo al que se dirige el mensaje.
+              p.mb-0 Persona o grupo al que se dirige el mensaje.
           .row(numero="6" titulo="Decodificación")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Interpretación que realiza el receptor a partir del mensaje recibido.
+              p.mb-0 Interpretación que realiza el receptor a partir del mensaje recibido.
           .row(numero="7" titulo="Retroalimentación")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Respuesta del receptor que permite conocer cómo fue recibido e interpretado el mensaje.
+              p.mb-0 Respuesta del receptor que permite conocer cómo fue recibido e interpretado el mensaje.
           .row(numero="8" titulo="Ruido")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Cualquier interferencia que pueda alterar, dificultar o distorsionar la comunicación durante el proceso.
+              p.mb-0 Cualquier interferencia que pueda alterar, dificultar o distorsionar la comunicación durante el proceso.
       
     p En el ámbito comercial, las empresas utilizan diferentes herramientas de comunicación para relacionarse con sus públicos, posicionar su oferta y apoyar el proceso de venta. Entre las principales se encuentran:
 
@@ -314,19 +314,19 @@
         LineaTiempoD.color-primario
           .row(numero="1" titulo="Publicidad")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Comunicación pagada y no personal utilizada para presentar y promocionar productos, servicios, marcas o ideas a un público determinado.
+              p.mb-0 Comunicación pagada y no personal utilizada para presentar y promocionar productos, servicios, marcas o ideas a un público determinado.
           .row(numero="2" titulo="Promoción de ventas")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Incentivos de duración limitada que buscan estimular la compra o favorecer la comercialización de un producto o servicio.
+              p.mb-0 Incentivos de duración limitada que buscan estimular la compra o favorecer la comercialización de un producto o servicio.
           .row(numero="3" titulo="Ventas personales")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Comunicación directa entre el representante de ventas y el cliente, orientada a identificar necesidades, presentar soluciones, atender inquietudes y facilitar la decisión de compra.
+              p.mb-0 Comunicación directa entre el representante de ventas y el cliente, orientada a identificar necesidades, presentar soluciones, atender inquietudes y facilitar la decisión de compra.
           .row(numero="4" titulo="Relaciones públicas")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Acciones orientadas a fortalecer la relación de la organización con sus diferentes públicos, favorecer su reputación y gestionar su comunicación institucional.
+              p.mb-0 Acciones orientadas a fortalecer la relación de la organización con sus diferentes públicos, favorecer su reputación y gestionar su comunicación institucional.
           .row(numero="5" titulo="<em>Marketing</em> directo")
             .col-md-12.mb-4.mb-md-0
-              p.text-small Comunicación dirigida a consumidores específicos con el propósito de generar una respuesta, facilitar una acción comercial y fortalecer la relación con el cliente.
+              p.mb-0 Comunicación dirigida a consumidores específicos con el propósito de generar una respuesta, facilitar una acción comercial y fortalecer la relación con el cliente.
         p De esta manera, la comunicación comercial no consiste únicamente en transmitir información, sino en seleccionar el mensaje, el medio y las herramientas más apropiadas para establecer una relación efectiva con el mercado objetivo y apoyar el cumplimiento de los objetivos comerciales.
       .col-lg-6
         img(src='@/assets/curso/temas/t4/4.png', alt='')
@@ -357,18 +357,18 @@
             img(src='@/assets/curso/temas/t5/2.svg', alt='')
           .col-lg-10
             p Entre las principales técnicas que pueden utilizarse para obtener información del mercado se encuentran:
-        ul.lista-ul
+        ul.lista-ul--color.color-secundario.fa-lista
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Encuesta:] permite recopilar información de un grupo de personas mediante preguntas previamente estructuradas. Puede aplicarse de manera presencial, telefónica o a través de medios digitales.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Entrevista:] permite obtener información mediante una conversación orientada por preguntas relacionadas con el propósito de la investigación. Puede utilizarse cuando se requiere profundizar en opiniones, necesidades, experiencias o percepciones.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Observación:] consiste en registrar de manera organizada comportamientos, acciones o situaciones relacionadas con los consumidores y su interacción con productos, servicios o espacios comerciales.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Grupos focales:] permiten recopilar información mediante una conversación guiada con un grupo reducido de participantes, con el propósito de conocer opiniones, percepciones, expectativas o actitudes relacionadas con un tema determinado.             
       .col-lg-4
         img(src='@/assets/curso/temas/t5/3.png', alt='')
@@ -413,21 +413,21 @@
     
     .row.justify-content-center.mb-5
       .col-lg-10
-        ul.lista-ul
+        ul.lista-ul--color.color-secundario.fa-lista
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Cuestionario:] conjunto organizado de preguntas utilizado principalmente en encuestas y entrevistas.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Guía de entrevista:] orienta las preguntas y temas que se abordarán durante una entrevista.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Guía de observación:] establece los aspectos que deben registrarse durante el proceso de observación.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Lista de chequeo:] permite verificar el cumplimiento o presencia de determinadas características, condiciones o comportamientos.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Escalas de valoración:] permiten medir opiniones, percepciones, preferencias o niveles de aceptación.
     
     p Por tanto, mientras la técnica establece cómo se obtendrá la información, el instrumento determina con qué herramienta se recopilará y registrará. Ambos deben seleccionarse de acuerdo con los objetivos y las características de la información requerida.
@@ -447,15 +447,15 @@
           .col-lg-3
             img(src='@/assets/curso/temas/t5/7.svg', alt='')
           .col-lg-9
-            ul.lista-ul
+            ul.lista-ul--color.color-secundario.fa-lista
               li 
-                i.lista-ul__vineta
+                i.fas.fa-user
                 | #[b Campos:] corresponden a las características o variables que se desean registrar, como nombre, ciudad, producto adquirido o fecha de compra.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-user
                 | #[b Registros:] reúnen los datos correspondientes a una persona, producto, transacción u otro elemento almacenado.
               li 
-                i.lista-ul__vineta
+                i.fas.fa-user
                 | #[b Tablas:] organizan los registros mediante filas y columnas para facilitar su almacenamiento y consulta.         
       .col-lg-3
         img(src='@/assets/curso/temas/t5/8.svg', alt='')
@@ -468,12 +468,12 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
         p Las bases de datos pueden clasificarse de diferentes maneras según su estructura y finalidad. Para efectos del manejo de información comercial, resulta útil distinguir entre:
-        ul.lista-ul
+        ul.lista-ul--color.color-secundario.fa-lista
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Bases de datos estáticas:] almacenan información destinada principalmente a la consulta y que presenta pocos cambios a través del tiempo.
           li 
-            i.lista-ul__vineta
+            i.fas.fa-user
             | #[b Bases de datos dinámicas:] permiten incorporar, modificar, actualizar o eliminar información de manera continua.
         p La elección dependerá del propósito de la información y de la frecuencia con la cual sea necesario actualizarla.
       .col-lg-5
@@ -499,7 +499,7 @@
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-7
-         ol.lista-ol--cuadro.lista-ol--separador
+        ol.lista-ol--cuadro.lista-ol--separador
             li 
               .lista-ol--cuadro__vineta
                 span a

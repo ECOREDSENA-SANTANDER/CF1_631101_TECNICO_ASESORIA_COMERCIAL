@@ -9,23 +9,26 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.justify-content-center.align-items-center.mb-4
-      .col-lg-7
-        .row.justify-content-center.align-items-center.mb-3
-          .col-lg-2
-            img(src='@/assets/curso/temas/intro/1.svg', alt='')
-          .col-lg-10
-            p El mercado actual se caracteriza por consumidores con necesidades, preferencias y comportamientos cada vez más diversos, lo que exige a las organizaciones comprender a quiénes dirigen su oferta y cómo pueden generar valor para ellos. 
-        p En este contexto, el mercadeo constituye un elemento fundamental para analizar el entorno, comprender al cliente y orientar decisiones relacionadas con productos y servicios, precios, distribución y comunicación, como base para establecer estrategias comerciales pertinentes.
-        p Este componente formativo aborda los fundamentos del mercadeo y del mercado, así como los criterios y procedimientos necesarios para segmentarlo e identificar nichos con potencial comercial. Asimismo, integra técnicas e instrumentos para la recolección de información y elementos asociados con la organización de bases de datos, con el propósito de facilitar la caracterización de clientes potenciales y sustentar la toma de decisiones comerciales de acuerdo con las particularidades del segmento de mercado.
-      .col-lg-5
-        img(src='@/assets/curso/temas/intro/2.png', alt='')
+    .row.bgcompl-1.tarjeta.align-items-center.p-4.mb-4(data-aos="fade")
+      .col-lg-12.col-12.px-lg-4
+        .row.justify-content-center.align-items-center
+
+          .row.justify-content-center.align-items-center
+            .col-lg-7
+              .row.justify-content-center.align-items-center.mb-3
+                .col-lg-2.d-none.d-lg-block
+                  img(src='@/assets/curso/temas/intro/1.svg', alt='')
+                .col-lg-10
+                  p.mb-0 El mercado actual se caracteriza por consumidores con necesidades, preferencias y comportamientos cada vez más diversos, lo que exige a las organizaciones comprender a quiénes dirigen su oferta y cómo pueden generar valor para ellos. 
+              p En este contexto, el mercadeo constituye un elemento fundamental para analizar el entorno, comprender al cliente y orientar decisiones relacionadas con productos y servicios, precios, distribución y comunicación, como base para establecer estrategias comerciales pertinentes.
+              p.mb-0 Este componente formativo aborda los fundamentos del mercadeo y del mercado, así como los criterios y procedimientos necesarios para segmentarlo e identificar nichos con potencial comercial. Asimismo, integra técnicas e instrumentos para la recolección de información y elementos asociados con la organización de bases de datos, con el propósito de facilitar la caracterización de clientes potenciales y sustentar la toma de decisiones comerciales de acuerdo con las particularidades del segmento de mercado.
+            .col-lg-5.d-none.d-lg-block
+              img(src='@/assets/curso/temas/intro/2.png', alt='')
     
-    .row.justify-content-center.align-items-center           
-      .col-lg-12
-        figure
-          .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/vdPrCjWJSHo?si=X4NxENRo3LLXAua_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    figcaption Video. 
 
 </template>
 
