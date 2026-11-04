@@ -161,6 +161,13 @@ figcaption
     @media screen and (max-width: 767px)
       margin-inline: -1.4rem  
       background-size: cover
+  &-2
+    background: #D4D6D6
+    margin-inline: -3.4rem
+    @media screen and (max-width: 992px)
+      margin-inline: -3rem  
+    @media screen and (max-width: 767px)
+      margin-inline: -1.4rem  
 
 
 .subt
@@ -232,10 +239,38 @@ figcaption
       background-color: #FBF7CD
       &:focus, &:hover
         background-color: #FBF7CD
+.pasos-a.color-acento-contenido .pasos-a__circle div
+  text-transform: lowercase
+.tarjeta-audio__texto
+  color: $color-sistema-texto !important
+  font-style: normal !important
+.slyder-f__btn i
+  color: $color-acento-botones
 
 
-
-
+.tarj-t2
+  &--1, &--2, &--3
+    border: 1px solid #99B9C2
+    border-radius: 15px
+    height: 100%
+    margin-top: 23px
+    padding: 15px
+    h4 
+      width: fit-content
+      display: flex
+      margin: 0 auto
+      text-align: center
+      border-radius: 10px
+      padding: 10px 30px
+      margin-bottom: 15px
+      margin-top: -23px
+  &--1 h4
+    background-color: #B5F0FE
+  &--2 h4
+    background-color: #AEA3BE
+  &--3 h4
+    background-color: #FBF7CD
+    
 
 
 /**************************************************************/

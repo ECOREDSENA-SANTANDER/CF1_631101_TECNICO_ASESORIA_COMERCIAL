@@ -9,7 +9,7 @@
           i.fas.fa-info
       h1 Introducción
     
-    .row.bgcompl-1.tarjeta.align-items-center.p-4.mb-4(data-aos="fade")
+    .row.bgcompl-1.align-items-center.p-4.mb-4(data-aos="fade")
       .col-lg-12.col-12.px-lg-4
         .row.justify-content-center.align-items-center
 
