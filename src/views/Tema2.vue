@@ -12,10 +12,8 @@
         :style="{'background-image': `url(${require_src('@/assets/curso/temas/t2/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Los productos y servicios necesitan estar disponibles para los clientes en el lugar, momento y condiciones adecuadas. Para lograrlo, las empresas establecen #[b canales de distribución,] es decir, las rutas que permiten conectar la oferta de una organización con sus compradores o usuarios finales.
-          br
-          br
-          | Un canal de distribución puede ser #[b directo,] cuando la empresa vende al cliente sin intermediarios, o indirecto, cuando participan uno o varios intermediarios, como distribuidores, mayoristas, agentes o minoristas. Estos intermediarios facilitan que los productos lleguen a diferentes mercados y puedan adquirirse en las cantidades y condiciones requeridas por los clientes.
+        p.mb-0 Los productos y servicios necesitan estar disponibles para los clientes en el lugar, momento y condiciones adecuadas. Para lograrlo, las empresas establecen #[b canales de distribución,] es decir, las rutas que permiten conectar la oferta de una organización con sus compradores o usuarios finales. #[br] #[br]
+        p.mb-0 Un canal de distribución puede ser #[b directo,] cuando la empresa vende al cliente sin intermediarios, o indirecto, cuando participan uno o varios intermediarios, como distribuidores, mayoristas, agentes o minoristas. Estos intermediarios facilitan que los productos lleguen a diferentes mercados y puedan adquirirse en las cantidades y condiciones requeridas por los clientes.
     
     .row.justify-content-center.mb-4
       .col-lg-6.mb-3.mb-lg-0(data-aos="fade-right")
